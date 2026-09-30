@@ -1,3 +1,10 @@
+# Details
+
+```Name``` : **Vishwas Gowda S** <br>
+```SRN``` : **PES1UG24CS539** <br>
+```Section``` : **I** <br>
+<br>
+
 # Target Aim Trainer
 
 This project is a terminal-based target aim trainer using **Pygame**. It introduces students to interactive game design using object-oriented principles and real-time graphical rendering.

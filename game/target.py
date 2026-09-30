@@ -28,4 +28,8 @@ class Target:
         # the target ages, but the clickable area never does, so a
         # late click well outside the small visible circle can still
         # register as a hit. See Task 1 in the README.
-        return math.hypot(self.x - x, self.y - y) <= self.base_radius
+        #  return math.hypot(self.x - x, self.y - y) <= self.base_radius
+
+        #Fixed
+        return math.hypot(self.x - x, self.y - y) <= self.visual_radius()
+       

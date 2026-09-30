@@ -1,7 +1,13 @@
 import pygame
 from game.game_engine import GameEngine
 
-# Initialize pygame/Start application
+pygame.mixer.pre_init(
+    frequency=44100,
+    size=-16,
+    channels=2,
+    buffer=512
+)
+
 pygame.init()
 
 # Screen dimensions
